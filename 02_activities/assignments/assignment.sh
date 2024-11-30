@@ -16,7 +16,7 @@ touch README.md
 touch analysis/main.py
 
 # download client data
-curl -Lo rawdata.zip https://github.com/UofT-DSI/shell/raw/refs/heads/main/02_activities/assignments/rawdata.zip
+wget -O rawdata.zip https://github.com/UofT-DSI/shell/raw/refs/heads/main/02_activities/assignments/rawdata.zip
 unzip rawdata.zip
 
 ###########################################
